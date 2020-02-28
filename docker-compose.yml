@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  instabot:
+    image: socialmanagertools/igbot:amd64
+    volumes:
+      - ./src/config.js:/app/configs/config.js
+
